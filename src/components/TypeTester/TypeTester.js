@@ -334,6 +334,7 @@ export default class TypeTester extends Component {
             />
           </div>
           <div className={`${prefix}--input-range-wrapper`}>
+            {/* https://github.com/carbon-design-system/carbon/issues/6039 */}
             <Slider
               min={100}
               max={1600}
