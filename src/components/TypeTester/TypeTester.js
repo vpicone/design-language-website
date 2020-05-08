@@ -338,7 +338,6 @@ export default class TypeTester extends Component {
               min={100}
               max={1600}
               value={this.state.typeSizeMultiplier}
-              key={this.state.typeSizeMultiplier}
               onChange={e => {
                 this.setState({ typeSizeMultiplier: Number(e.value) });
               }}
